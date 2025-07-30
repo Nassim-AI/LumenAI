@@ -796,7 +796,7 @@ st.markdown(
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image("capture_csv1.png", use_column_width=True)
+    st.image("capture_csv1.png", use_container_width=True)
 
 with col2:
     st.markdown(
@@ -816,7 +816,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.markdown('<div class="vertical-align">', unsafe_allow_html=True)
-    st.image("capture_csv2.png", use_column_width=True)
+    st.image("capture_csv2.png", use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col2:
