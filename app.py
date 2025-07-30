@@ -111,13 +111,11 @@ st.markdown(
         color: #ffffff;
     }
     
-    .title-accent {
-        color: var(--accent-color);
-        background: linear-gradient(45deg, #FFB74D, #FFA726);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
+.title-accent {
+    color: #FFB74D !important;
+    text-shadow: 0 0 10px rgba(255, 183, 77, 0.5) !important;
+    font-weight: 700 !important;
+}
     
     .header-tags {
         display: flex;
