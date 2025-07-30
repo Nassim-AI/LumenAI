@@ -752,7 +752,7 @@ st.markdown(
     </h4>
     <p class="context-text">
         En septembre 2020, <span class="company-highlight">LumenAI</span> a été contactée par <span class="highlight">Éric Dussolier</span>, 
-        gestionnaire d'actifs chez <em>SolarEdge Management</em>, pour étudier les performances 
+        gestionnaire d'actifs chez <em>Voltalia</em>, pour étudier les performances 
         d'un parc solaire situé dans le sud de la France.
     </p>
     <p class="context-text">
@@ -1168,7 +1168,7 @@ st.markdown(
         <p style="font-size:16px; line-height:1.6em; color:#2c3e50;">
         Une solution manuelle consisterait à examiner chaque jour les courbes de chaque capteur.
         Mais cette méthode est chronophage, et inadaptée aux attentes de 
-        <em>SolarEdge Management</em>, qui recherche une solution simple, automatisée et efficace.
+        <em>Voltalia</em>, qui recherche une solution simple, automatisée et efficace.
         </p>
 
         <p style="font-size:16px; line-height:1.6em; color:#2c3e50; margin-top:20px;">
@@ -1234,7 +1234,7 @@ st.markdown(
 
         <p style="font-size:16px; line-height:1.6em; color:#2c3e50;">
         Mais avant cela, un peu de feature engineering s’impose : nous allons commencer par 
-        fusionner les deux jeux de données fournis par SolarEdge Management.
+        fusionner les deux jeux de données fournis par Voltalia.
         </p>
     """,
     unsafe_allow_html=True,
@@ -1365,7 +1365,7 @@ st.markdown(
     """
     Une question légitime se pose : **peut-on prédire précisément la production solaire des prochains jours ?**
 
-    C’est en effet le souhait de SolarEdge Management, qui aimerait pouvoir communiquer à ses clients des estimations fiables de la production à venir.
+    C’est en effet le souhait de Voltalia, qui aimerait pouvoir communiquer à ses clients des estimations fiables de la production à venir.
 
     En réalité, prédire précisément la production d’un système photovoltaïque est une tâche complexe.  Et les données dont on dispose actuellement sont insuffisantes pour entraîner un modèle robuste de ML/DL. Pour améliorer la précision, il serait nécessaire de collecter davantage de variables externes, en voici une liste non-exhaustive :
 
