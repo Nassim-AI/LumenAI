@@ -728,18 +728,10 @@ st.markdown(
 # Chargement des données
 @st.cache_data
 def load_data():
-    plant1_gen = pd.read_csv(
-        "/Users/amelle/Desktop/Dataset_LumenAI/Plant_1_Generation_Data.csv"
-    )
-    plant2_gen = pd.read_csv(
-        "/Users/amelle/Desktop/Dataset_LumenAI/Plant_2_Generation_Data.csv"
-    )
-    plant1_weather = pd.read_csv(
-        "/Users/amelle/Desktop/Dataset_LumenAI/Plant_1_Weather_Sensor_Data.csv"
-    )
-    plant2_weather = pd.read_csv(
-        "/Users/amelle/Desktop/Dataset_LumenAI/Plant_2_Weather_Sensor_Data.csv"
-    )
+    plant1_gen = pd.read_csv("Dataset_LumenAI/Plant_1_Generation_Data.csv")
+    plant2_gen = pd.read_csv("Dataset_LumenAI/Plant_2_Generation_Data.csv")
+    plant1_weather = pd.read_csv("Dataset_LumenAI/Plant_1_Weather_Sensor_Data.csv")
+    plant2_weather = pd.read_csv("Dataset_LumenAI/Plant_2_Weather_Sensor_Data.csv")
     return plant1_gen, plant2_gen, plant1_weather, plant2_weather
 
 
