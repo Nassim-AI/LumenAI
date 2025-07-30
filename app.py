@@ -64,7 +64,7 @@ st.markdown(
         background: var(--primary-gradient);
         padding: 3rem 2rem 2.5rem 2rem;
         border-radius: var(--border-radius-large);
-        text-align: center;
+        text-align: center !important;
         margin-bottom: 3rem;
         box-shadow: var(--shadow-soft);
         border: none;
@@ -151,8 +151,10 @@ st.markdown(
         font-weight: 400;
         line-height: 1.5;
         max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;   
+        display: block !important;       
     }
     
     .header-footer {
